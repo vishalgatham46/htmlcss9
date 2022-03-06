@@ -1,0 +1,28 @@
+.container{
+    width: 80%;
+    background-color: lightcyan;
+    height: 600px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: darkred;
+    border-radius: 50%;
+    position: relative;
+    left: 400px;
+    animation: bouncingball 3s ease-in-out infinite;
+}
+@keyframes bouncingball {
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 400px;
+        background-color: darkblue;
+    }
+    100%{
+        top: 0px;
+        background-color: darkred;
+    }
+    
+}
